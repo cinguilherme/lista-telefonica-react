@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import MainPage from './mainpage/MainPage';
+
 class App extends Component {
 
     render(){
         return(
             <div className="container">
-                new component App para lista telefonica
+                <MainPage />
             </div>
         )
     }
